@@ -3,6 +3,14 @@
 // .map() - 
 //function that takes an array of items and a function that returns an array with each item manipulated by that function.
 
+let nums = [15, 4, 10, 8, 9 ,7, 2, 6]
+let addNums = [];
+
+for (i = 0; i <nums.length; i++){
+  addNums.push(nums[i]+1);
+}
+console.log(addNums)
+
 //loops through the array
 //modifies each item in array
 //returns a modified array with each item that was changed
@@ -10,6 +18,9 @@
 
 // .reduce() - 
 // function that takes an array of food orders with their amounts and returns the total amount of all the food orders.
+
+
+
 // loops through array
 // takes the value of the price for food orders
 // sums to food order values
