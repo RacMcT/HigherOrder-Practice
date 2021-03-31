@@ -45,7 +45,7 @@ let names = ["Michael", "Isaiah", "Scott", "Dominik", "Rachel", "Eddie", "Barret
 let fiveLetter = [];
 
 for (i = 0; i <names.length; i++){
-  if (names[i].length = 5){
+  if (names[i].length == 5){
    names[i].length.push(fiveLetter)
   }
   console.log(fiveLetter)
